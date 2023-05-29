@@ -179,7 +179,7 @@ module searchService 'core/search/search-services.bicep' = {
     sku: {
       name: searchServiceSkuName
     }
-    semanticSearch: 'free'
+    semanticSearch: 'disabled'
   }
 }
 
